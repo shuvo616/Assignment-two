@@ -146,4 +146,13 @@ body {
         width: 300px;
         padding: 5px;
     } 
+    .women-jacket h2 {
+        font-weight: bold;
+        color: #363958;
+        margin-bottom: 50px;
+        margin-top: 60px;
+    }
+    .baner{
+        height: 600px;
+    }
 }
