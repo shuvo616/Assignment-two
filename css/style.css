@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;  
+}
+
+.header{
+    background-color: #FFFBF0;
+}
+.header li a{
+    color: #3B3B3B;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 20px;
+} 
+.nav-color{
+    color: #FFFBF0
+}
+.navbar img{ 
+    width: 55%;
+}
+.baner{
+    height: 420px;
+}
+.baner h1 {
+    color: #363958;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.baner p {
+    font-size: 18px;
+    line-height: 28px;
+}
+.baner img{
+    width: 65%;
+}
+.highlight {
+    color: #FABE4C;
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.custom-button {
+    color: #fff;
+    background-color: #a4bc46;
+    border-color: #a4bc46;
+    padding: 10px 30px;
+}
+.women-jacket h2 {
+    font-weight: bold;
+    color: #363958;
+    margin-bottom: 50px;
+}
+.women-jacket h5 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #363958;
+}
+.women-jacket h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #FABE4C;
+}
+.penguin-card{
+    border: 0;
+}
+.penguin-card-img {
+    width: 80%;
+    height: 300px;
+    padding: 10px;
+    margin-left: 30px;
+    background-color: #F1F1F1;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.penguin-card-footer{
+    border: 0;
+    background-color: #fff;
+}
+.same-post {
+    height: 131px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 6px 5px #b1a3a3;
+    margin-top: 10px;
+}
+.same-post-image{
+    float: left; 
+    width: 100px;
+}
+.same-post-image img {
+    width: 80px;
+    height: 80px;
+    padding: 5px;
+}
+.same-post-content {
+    float: right;
+    width: 400px;
+    padding: 5px;
+}
+.same-post-content h5 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #363958;
+}
+.same-post-content p {
+    font-size: 18px;
+}
+
+.same-post-right-image img {
+    width: 100%;
+}
+.Subscribe-custom-bg {
+    background-color: #fabe4c;
+}
+.custom-footer{
+    background-color: #ceaa4a;
+}
+
+/*Media qurey*/
+@media(max-width:576px){
+    
+    .nav-togole{
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .navbar .navbar-brand img{
+        width:180px;
+    }
+    .same-post {
+        height: 195px;
+        background-color: #ffffff;
+        padding: 10px;
+        border-radius: 15px;
+        box-shadow: 5px 6px 5px #b1a3a3;
+        margin-top: 10px;
+    }
+    .same-post-content {
+        float: right;
+        width: 300px;
+        padding: 5px;
+    }
+}
